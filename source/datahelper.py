@@ -126,7 +126,8 @@ class DataSet(object):
 
 
   def read_sets(self, FLAGS): ### fpath should be the dataset folder /kiba/ or /davis/
-    fpath = FLAGS.dataset_path
+    fpath = "/content/DeepDTA/"
+    #fpath = FLAGS.dataset_path
     setting_no = FLAGS.problem_type
     print("Reading %s start" % fpath)
 
